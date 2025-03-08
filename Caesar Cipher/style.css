@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  padding: 50px;
+}
+
+form textarea {
+  resize: none;
+  padding: 10px;
+  font-size: large;
+  border-radius: 2px;
+  outline: none;
+}
+
+form button {
+  padding: 10px;
+  font-size: larger;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+
+#cipherText{
+    font-size: 18px;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+
+.textContainer{
+    width: 500px;
+}
